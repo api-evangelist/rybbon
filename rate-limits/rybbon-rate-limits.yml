@@ -1,0 +1,33 @@
+name: Rybbon Rate Limits
+description: Rate limiting policies for the Rybbon (BHN Rewards) REST API.
+url: https://developer.bhnrewards.com/
+notes: >
+  Rybbon (BHN Rewards) does not publicly document explicit rate limit thresholds
+  such as requests per minute or per hour. The API uses OAuth 2.0 client credentials
+  for authentication, and each request must carry a Bearer token. To prevent duplicate
+  reward sends due to system retry behavior, the API uses idempotency via a unique
+  requestId field. Duplicate submissions return error code 2303.
+limits:
+  - type: idempotency
+    description: >
+      Include a unique requestId in each reward request to prevent duplicate processing.
+      If the same requestId is submitted more than once, the API returns error code 2303
+      indicating a duplicate request.
+    errorCode: 2303
+authentication:
+  type: OAuth 2.0
+  flow: client_credentials
+  tokenEndpoint: https://oauth.rybbon.net/oauth2/token
+  grantType: client_credentials
+  headerFormat: "Authorization: Bearer {access_token}"
+  credentialSource: "BHN Rewards Settings → API (Client ID and Client Secret)"
+environments:
+  - name: Production
+    apiBaseUrl: https://api.rybbon.net/v2/
+    oauthUrl: https://oauth.rybbon.net/oauth2/token
+  - name: Sandbox
+    appUrl: https://app.rybbon.net
+    description: Sandbox environment with test funds available upon partner request
+contact:
+  url: https://www.bhnrewards.com/contact/
+  phone: 888-203-2249

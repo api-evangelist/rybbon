@@ -1,0 +1,51 @@
+name: Rybbon Plans and Pricing
+description: Pricing plans for the Rybbon (BHN Rewards) digital rewards management platform.
+url: https://www.bhnrewards.com/pricing/
+plans:
+  - name: On-Demand
+    description: Pay-as-you-go plan for customers with ad-hoc or occasional reward sending needs.
+    model: pay-as-you-go
+    price: custom
+    currency: USD
+    billingPeriod: per-transaction
+    features:
+      - US and global rewards catalog
+      - Reward choice of gift cards and donations
+      - Customized gift emails and landing pages
+      - Tracking and reporting
+      - 100% refund for unclaimed rewards
+    limitations:
+      - No API access
+      - No native integrations
+      - No Virtual Visa or Mastercard rewards
+      - No SSO authentication
+      - No HIPAA BAA
+  - name: Annual Subscription
+    description: Full-featured annual subscription plan for teams managing ongoing and high-volume rewards programs, including API access.
+    model: subscription
+    price: custom
+    currency: USD
+    billingPeriod: annual
+    features:
+      - US and global rewards catalog
+      - Reward choice of gift cards and donations
+      - Customized gift emails and landing pages
+      - Tracking and reporting
+      - 100% refund for unclaimed rewards
+      - 25+ native integrations (Salesforce, HubSpot, Qualtrics, Marketo, SurveyMonkey, etc.)
+      - Virtual Visa and Mastercard prepaid rewards
+      - Advanced branding and customization
+      - Multiple users and accounts
+      - SSO authentication (Okta and others)
+      - SMS delivery
+      - Multilingual support
+      - API access (Instant Rewards and Points-to-Rewards)
+      - HIPAA BAA compliance
+      - Dedicated account manager
+contact:
+  phone: 888-203-2249
+  url: https://www.bhnrewards.com/contact/
+notes: >
+  Rybbon rebranded to BHN Rewards. Specific plan prices are not publicly listed;
+  all pricing requires a custom quote from the sales team. API access is only
+  available on the Annual Subscription plan.

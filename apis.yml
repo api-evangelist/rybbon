@@ -1,0 +1,104 @@
+aid: rybbon
+name: Rybbon
+description: >
+  Rybbon (now BHN Rewards) is a digital rewards management platform with a REST API
+  for sending gift cards and prepaid virtual cards, managing reward campaigns, tracking
+  recipient engagement, and accessing reward analytics. The platform supports both
+  Instant Rewards and Points-to-Rewards integration models, authenticated via OAuth 2.0
+  client credentials, and serves marketing, market research, academic research, and
+  employee incentive use cases globally.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Digital Rewards
+  - Gift Cards
+  - Prepaid Cards
+  - Incentives
+  - Marketing
+  - Employee Recognition
+  - Market Research
+  - Points
+  - FinTech
+apis:
+  - aid: rybbon:rybbon-instant-rewards-api
+    name: Rybbon Instant Rewards API
+    description: >
+      REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard,
+      e-gift cards, and other digital rewards instantly to recipients. Supports campaign management,
+      recipient tracking, and reward analytics. Authenticated via OAuth 2.0 client credentials.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.bhnrewards.com/
+    baseURL: https://api.rybbon.net/v2/
+    tags:
+      - Gift Cards
+      - Instant Rewards
+      - Digital Rewards
+      - Incentives
+    properties:
+      - type: Documentation
+        url: https://developer.bhnrewards.com/
+      - type: OpenAPI
+        url: https://demo.rybbon.net/public/v2/reference
+      - type: Authentication
+        url: https://oauth.rybbon.net/oauth2/token
+      - type: Sandbox
+        url: https://app.rybbon.net
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/plans/rybbon-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/rate-limits/rybbon-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/finops/rybbon-finops.yml
+  - aid: rybbon:rybbon-points-to-rewards-api
+    name: Rybbon Points-to-Rewards API
+    description: >
+      REST API for integrating a points-based reward system, allowing platforms to
+      allocate points to recipients which can then be redeemed for digital gift cards
+      and prepaid rewards. Uses OAuth 2.0 client credentials authentication with
+      Bearer tokens on the points allocation endpoint.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.bhnrewards.com/
+    baseURL: https://api.rybbon.net/v2/
+    tags:
+      - Points
+      - Rewards
+      - Loyalty
+      - Gift Cards
+    properties:
+      - type: Documentation
+        url: https://developer.bhnrewards.com/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/plans/rybbon-plans-pricing.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/rate-limits/rybbon-rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/finops/rybbon-finops.yml
+common:
+  - type: Website
+    url: https://www.bhnrewards.com/
+  - type: Documentation
+    url: https://developer.bhnrewards.com/
+  - type: GitHubOrg
+    url: https://github.com/bhnrewards
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/bhnrewards
+  - type: Blog
+    url: https://www.bhnrewards.com/blog/
+  - type: Pricing
+    url: https://www.bhnrewards.com/pricing/
+  - type: StatusPage
+    url: https://status.rybbon.net/
+  - type: X
+    url: https://twitter.com/BHNrewards
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/plans/rybbon-plans-pricing.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/rate-limits/rybbon-rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/finops/rybbon-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

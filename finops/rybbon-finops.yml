@@ -1,0 +1,43 @@
+name: Rybbon FinOps
+description: Financial operations guidance for managing costs on the Rybbon (BHN Rewards) digital rewards platform.
+url: https://www.bhnrewards.com/pricing/
+costModel:
+  type: custom
+  description: >
+    Rybbon (BHN Rewards) uses a custom pricing model. No publicly listed per-unit
+    costs are available. Historical transaction data from procurement sources suggests
+    annual contract values range from approximately $2,000 to $61,000, with an average
+    near $22,000 per year.
+  requiresQuote: true
+  contactSales: https://www.bhnrewards.com/contact/
+  phone: 888-203-2249
+costControls:
+  - name: Unclaimed Reward Refunds
+    description: >
+      All plans include a 100% refund policy for rewards that are issued but never
+      claimed within the configured claiming window. This is a key cost-control
+      mechanism ensuring budget is not lost to undelivered incentives.
+    applicablePlans:
+      - On-Demand
+      - Annual Subscription
+  - name: No Minimum Volume
+    description: >
+      BHN Rewards does not impose a minimum volume requirement (except for PayPal
+      rewards), allowing organizations to control spend by sending only as needed.
+    exceptions:
+      - PayPal rewards have a minimum volume requirement
+  - name: Reward Claiming Window
+    description: >
+      Organizations can set a configurable claiming window for each reward campaign.
+      Rewards not claimed within that window are automatically refunded, preventing
+      idle budget loss.
+  - name: API Idempotency
+    description: >
+      Use unique requestId values on all API reward-send calls to prevent accidental
+      duplicate charges caused by retry logic. Duplicate submissions return error 2303
+      without processing a new reward.
+budgetConsiderations:
+  - Annual subscription contracts are negotiated directly with BHN Rewards sales.
+  - On-Demand (pay-as-you-go) suits low-volume or one-time campaigns to avoid committed spend.
+  - API access requires the Annual Subscription tier; factor this into FinOps planning for programmatic reward delivery.
+  - Global rewards delivery is supported; factor in currency and local market reward catalog availability.
