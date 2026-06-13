@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.bhnrewards.com/",
+  "name": "Rybbon (BHN Rewards)",
+  "alternateName": "BHN Rewards",
+  "description": "Rybbon (now BHN Rewards) is a digital rewards management platform providing a REST API for sending gift cards and prepaid virtual cards, managing reward campaigns, tracking recipient engagement, and accessing reward analytics.",
+  "url": "https://www.bhnrewards.com/",
+  "sameAs": [
+    "https://www.rybbon.net/",
+    "https://twitter.com/BHNrewards",
+    "https://www.linkedin.com/company/bhnrewards",
+    "https://github.com/bhnrewards"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "BHN Rewards API Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Rybbon Instant Rewards API",
+        "description": "REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard, e-gift cards, and other digital rewards instantly to recipients.",
+        "url": "https://developer.bhnrewards.com/"
+      },
+      {
+        "@type": "Offer",
+        "name": "Rybbon Points-to-Rewards API",
+        "description": "REST API for integrating a points-based reward system, allowing platforms to allocate points to recipients which can then be redeemed for digital gift cards and prepaid rewards.",
+        "url": "https://developer.bhnrewards.com/"
+      }
+    ]
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "url": "https://developer.bhnrewards.com/",
+    "name": "BHN Rewards Developer Portal"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "API Authentication",
+    "description": "Authenticate via OAuth 2.0 client credentials at https://oauth.rybbon.net/oauth2/token"
+  }
+}
