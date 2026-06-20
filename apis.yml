@@ -7,7 +7,7 @@ description: >
   Instant Rewards and Points-to-Rewards integration models, authenticated via OAuth 2.0
   client credentials, and serves marketing, market research, academic research, and
   employee incentive use cases globally.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
@@ -29,7 +29,7 @@ apis:
       REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard,
       e-gift cards, and other digital rewards instantly to recipients. Supports campaign management,
       recipient tracking, and reward analytics. Authenticated via OAuth 2.0 client credentials.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.bhnrewards.com/
     baseURL: https://api.rybbon.net/v2/
     tags:
@@ -59,7 +59,7 @@ apis:
       allocate points to recipients which can then be redeemed for digital gift cards
       and prepaid rewards. Uses OAuth 2.0 client credentials authentication with
       Bearer tokens on the points allocation endpoint.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.bhnrewards.com/
     baseURL: https://api.rybbon.net/v2/
     tags:
