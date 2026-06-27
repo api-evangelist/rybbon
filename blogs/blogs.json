@@ -1,74 +1,14 @@
 {
-  "aid": "rybbon",
-  "url": "https://www.bhnrewards.com/blog/",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "5 Workplace Trends to Watch, Based on Employee Surveys",
-      "url": "https://www.bhnrewards.com/blog/5-workplace-trends-to-watch-based-on-employee-surveys/",
-      "category": "Employee Rewards"
-    },
-    {
-      "title": "Research Reveals 3 Musts for Your Employee Rewards",
-      "url": "https://www.bhnrewards.com/blog/research-reveals-3-musts-for-your-employee-rewards/",
-      "category": "Employee Rewards"
-    },
-    {
-      "title": "Increase Sales Opportunities to Start 2025 Off Right",
-      "url": "https://www.bhnrewards.com/blog/increase-sales-opportunities-to-start-2025-off-right/",
-      "category": "Sales"
-    },
-    {
-      "title": "Take Advantage of Customer Loyalty Rewards After the Holidays",
-      "url": "https://www.bhnrewards.com/blog/take-advantage-of-customer-loyalty-rewards-after-the-holidays/",
-      "category": "Digital Marketing, Sales"
-    },
-    {
-      "title": "Holidays Came Too Fast? Give New Year Gifts for Employees Instead",
-      "url": "https://www.bhnrewards.com/blog/holidays-came-too-fast-give-new-year-gifts-for-employees-instead/",
-      "category": "Employee Rewards"
-    },
-    {
-      "title": "How Market Research Incentives Help You Adapt to the Latest Trends",
-      "url": "https://www.bhnrewards.com/blog/how-market-research-incentives-help-adapt-to-the-latest-trends/",
-      "category": "Academic Research, Market Research"
-    },
-    {
-      "title": "3 Ways to Make Gift Card Incentives More Charitable",
-      "url": "https://www.bhnrewards.com/blog/3-ways-to-make-gift-card-incentives-more-charitable/",
-      "category": "Digital Marketing, Employee Rewards, Market Research, Sales"
-    },
-    {
-      "title": "New Year's Resolutions to Improve Your Corporate Rewards Programs",
-      "url": "https://www.bhnrewards.com/blog/new-years-resolutions-to-improve-corporate-rewards-programs/",
-      "category": "Digital Marketing, Employee Rewards, Market Research, Sales"
-    },
-    {
-      "title": "Ensure Equality in Your Employee Recognition Award Program",
-      "url": "https://www.bhnrewards.com/blog/ensure-equality-in-your-employee-recognition-award-program/",
-      "category": "Employee Rewards"
-    },
-    {
-      "title": "Add Digital E-Gift Cards to Your Brand-Building Arsenal",
-      "url": "https://www.bhnrewards.com/blog/add-digital-e-gift-cards-to-your-brand-building-arsenal/",
-      "category": "Digital Marketing, Sales"
-    },
-    {
-      "title": "Use Employee Appreciation Incentives to Fight the 'Great Detachment'",
-      "url": "https://www.bhnrewards.com/blog/use-employee-appreciation-incentives-to-fight-the-great-detachment/",
-      "category": "Employee Rewards"
-    }
-  ],
   "repo": "rybbon",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/bhnrewards",
-      "feed_url": "https://www.linkedin.com/company/bhnrewards",
-      "title": "",
+      "source": "https://www.bhnrewards.com/blog/",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "method": "agent-scrape"
     }
   ],
+  "fetched": "2026-06-27T13:07:23Z",
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "agent_pulled": "2026-06-27"
 }
