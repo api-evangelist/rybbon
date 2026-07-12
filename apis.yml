@@ -77,6 +77,8 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/finops/rybbon-finops.yml
 common:
+  - type: DomainSecurity
+    url: security/rybbon-domain-security.yml
   - type: Website
     url: https://www.bhnrewards.com/
   - type: Documentation
