@@ -33,6 +33,16 @@ tags:
   - Employee Recognition
   - Market Research
   - Points
+  - Fintech
+tags_raw:
+  - Digital Rewards
+  - Gift Cards
+  - Prepaid Cards
+  - Incentives
+  - Marketing
+  - Employee Recognition
+  - Market Research
+  - Points
   - FinTech
 apis:
   - aid: rybbon:rybbon-instant-rewards-api
