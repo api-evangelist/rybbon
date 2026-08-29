@@ -7,6 +7,17 @@ description: >
   Instant Rewards and Points-to-Rewards integration models, authenticated via OAuth 2.0
   client credentials, and serves marketing, market research, academic research, and
   employee incentive use cases globally.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
