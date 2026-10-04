@@ -45,6 +45,7 @@ tags:
   - Market Research
   - Points
   - Fintech
+  - Loyalty & Incentives
 tags_raw:
   - Digital Rewards
   - Gift Cards
@@ -55,6 +56,7 @@ tags_raw:
   - Market Research
   - Points
   - FinTech
+  - Loyalty & Incentives
 apis:
   - aid: rybbon:rybbon-instant-rewards-api
     name: Rybbon Instant Rewards API
