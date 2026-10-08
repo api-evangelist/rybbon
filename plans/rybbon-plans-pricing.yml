@@ -53,3 +53,22 @@ notes: >
   Rybbon rebranded to BHN Rewards. Specific plan prices are not publicly listed;
   all pricing requires a custom quote from the sales team. API access is only
   available on the Annual Subscription plan.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  units: []
+  plans:
+  - name: On-Demand
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Annual Subscription
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
