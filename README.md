@@ -66,24 +66,104 @@
 
 Rybbon (now BHN Rewards) is a digital rewards management platform with a REST API for sending gift cards and prepaid virtual cards, managing reward campaigns, tracking recipient engagement, and accessing reward analytics. The platform supports both Instant Rewards and Points-to-Rewards integration models, authenticated via OAuth 2.0 client credentials, and serves marketing, market research, academic research, and employee incentive use cases globally.
 
-**Website:** https://www.bhnrewards.com/  
-**Developer Docs:** https://developer.bhnrewards.com/  
-**Status Page:** https://status.rybbon.net/  
-**Pricing:** https://www.bhnrewards.com/pricing/  
-**Blog:** https://www.bhnrewards.com/blog/
+**Areas:** Digital Rewards · Gift Cards · Prepaid Cards · Incentives · Marketing · Employee Recognition · Market Research · Points · Fintech · Loyalty & Incentives
 
-## APIs
+## Rybbon on APIs.io
 
-- **Instant Rewards API** — Send digital gift cards, virtual Visa/Mastercard, and other rewards instantly to recipients via REST API.
-- **Points-to-Rewards API** — Allocate points to recipients programmatically; recipients redeem points for digital rewards.
+Everything profiled for Rybbon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rybbon/](https://apis.io/providers/rybbon/)** — or go straight to one of the APIs or properties below.
 
-## Authentication
+### APIs (2)
 
-OAuth 2.0 client credentials flow. Obtain a Client ID and Client Secret from BHN Rewards Settings → API, then exchange them at `https://oauth.rybbon.net/oauth2/token` for a Bearer token used on all API calls.
+- [Rybbon Instant Rewards API](https://apis.io/apis/rybbon/rybbon-instant-rewards-api/) — REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard, e-gift cards, and other digital rewards instantly to recipients.…
+- [Rybbon Points-to-Rewards API](https://apis.io/apis/rybbon/rybbon-points-to-rewards-api/) — REST API for integrating a points-based reward system, allowing platforms to allocate points to recipients which can then be redeemed for digital gift cards…
 
-## Resources
+### Published properties
 
-- [Plans & Pricing](plans/rybbon-plans-pricing.yml)
-- [Rate Limits](rate-limits/rybbon-rate-limits.yml)
-- [FinOps](finops/rybbon-finops.yml)
-- [APIs.json](apis.yml)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rybbon Domain Security](https://apis.io/security/rybbon/rybbon-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rybbon Plans Pricing](https://apis.io/plans/rybbon/rybbon-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rybbon Rate Limits](https://apis.io/rate-limits/rybbon/rybbon-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Rybbon Finops](https://apis.io/finops/rybbon/rybbon-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bhnrewards.com/)
+- [Documentation](https://developer.bhnrewards.com/)
+- [Pricing](https://www.bhnrewards.com/pricing/)
+- [Blog](https://www.bhnrewards.com/blog/)
+- [Status](https://status.rybbon.net/)
+
+## API Evangelist rating
+
+**Kin Score 22.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 25.0 |
+| Access clarity | 15.8 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rybbon/](https://apis.io/providers/rybbon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rybbon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rybbon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
